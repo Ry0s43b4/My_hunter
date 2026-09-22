@@ -1,4 +1,4 @@
-# My_Hunter
+# My_hunter-Graphical
 
 A 2D graphical game project inspired by Nintendo's classic **Duck Hunt**, developed in **C** using the **CSFML** (C Simple and Fast Multimedia Library) library as part of the **Epitech** curriculum.
 
@@ -37,11 +37,11 @@ sudo dnf install CSFML-devel
 
 1. Clone the repository to your local machine:
    ```bash
-   git clone https://github.com
+   git clone https://github.com/Ry0s43b4/My_hunter-Graphical.git
    ```
 2. Navigate into the project directory:
    ```bash
-   cd my_hunter
+   cd My_hunter-Graphical
    ```
 3. Compile the project using the provided Makefile:
    ```bash
