@@ -1,32 +1,37 @@
 # My_Hunter
 
-A 2D graphical game project inspired by Nintendo's classic **Duck Hunt**, developed using C and the CSFML library.
+A 2D graphical game project inspired by Nintendo's classic **Duck Hunt**, developed in **C** using the **CSFML** (C Simple and Fast Multimedia Library) library as part of the **Epitech** curriculum.
 
 ## Project Overview
 
-This repository contains a functional recreation of the iconic Duck Hunt game. It features a custom animated background and a moving target (duck) that players can interact with by shooting. 
+This repository contains a functional recreation of the iconic Duck Hunt game. It focuses on managing a window, handling events, rendering sprites, and animating elements smoothly at a consistent frame rate.
 
 Please note that this is currently an ongoing project. The core gameplay mechanics are implemented, but advanced systems such as score tracking, win/lose conditions, and custom crosshairs are still in development.
 
-## Current Features
+## Features
 
-* **Parallax / Animated Background:** A visually faithful environment inspired by the original game.
-* **Target Management:** A responsive duck that spawns and moves across the screen.
-* **Hit Detection:** Basic mouse interaction to shoot the moving target.
+* **Parallax / Animated Background:** A visually faithful environment inspired by the original game using CSFML textures and sprites.
+* **Target Management:** A responsive duck that spawns, moves across the screen, and updates its frame animation.
+* **Hit Detection:** Basic mouse interaction and window event handling to shoot the moving target.
 
 ## Future Roadmap
 
 The project will be updated as time permits. Future iterations plan to include:
 * Score tracking and high-score systems.
 * Win, lose, and game-over conditions.
-* Custom in-game cursors/crosshairs.
-* Sound effects and audio feedback.
+* Custom in-game cursors/crosshairs to replace the system mouse.
+* Sound effects and audio feedback using the CSFML audio module.
 
 ## Getting Started
 
 ### Prerequisites
 
-To run this project locally, you need a C compiler (like `gcc`) and the **CSFML** (C Simple and Fast Multimedia Library) development packages installed on your system.
+To compile and run this project, you need a C compiler (`gcc`), `make`, and the **CSFML** development packages installed on your system.
+
+On Fedora/RedHat (Epitech environment):
+```bash
+sudo dnf install CSFML-devel
+```
 
 ### Installation & Execution
 
@@ -38,15 +43,18 @@ To run this project locally, you need a C compiler (like `gcc`) and the **CSFML*
    ```bash
    cd my_hunter
    ```
-3. Compile and run the project (adjust based on your actual Makefile):
+3. Compile the project using the provided Makefile:
    ```bash
    make
+   ```
+4. Run the game:
+   ```bash
    ./my_hunter
    ```
 
 ## Contributing
 
-Feel free to fork or clone this repository if you want to test the game, experiment with the code, or implement the missing features yourself. Pull requests and suggestions are always welcome!
+Feel free to fork or clone this repository if you want to test the game, experiment with CSFML, or implement the missing features yourself. Pull requests and suggestions are always welcome!
 
 ---
 Enjoy playing! 🎯
