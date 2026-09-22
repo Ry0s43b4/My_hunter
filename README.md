@@ -1,4 +1,4 @@
-# My_hunter-Graphical
+# My_hunter
 
 A 2D graphical game project inspired by Nintendo's classic **Duck Hunt**, developed in **C** using the **CSFML** (C Simple and Fast Multimedia Library) library as part of the **Epitech** curriculum.
 
