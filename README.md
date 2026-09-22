@@ -37,7 +37,7 @@ sudo dnf install CSFML-devel
 
 1. Clone the repository to your local machine:
    ```bash
-   git clone https://github.com/Ry0s43b4/My_hunter-Graphical.git
+   git clone https://github.com/Ry0s43b4/My_hunter.git
    ```
 2. Navigate into the project directory:
    ```bash
