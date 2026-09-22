@@ -41,7 +41,7 @@ sudo dnf install CSFML-devel
    ```
 2. Navigate into the project directory:
    ```bash
-   cd My_hunter-Graphical
+   cd My_hunter
    ```
 3. Compile the project using the provided Makefile:
    ```bash
